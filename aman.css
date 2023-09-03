@@ -1,11 +1,28 @@
-p{
+body{
+    background-color: aquamarine;
+}
+.aman{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 100vh;
     background-color: blueviolet;
     color: aquamarine;
+}
+p{
     font-size: 50px;
     font-family: cursive;
     font-weight: 500;
+}
+button{
+    margin-top: 20px;
+    padding: 5px 8px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 500;
+    border-radius: 15px;
+    border: 2px solid aquamarine;
+    background-color: rgb(202, 155, 247);
+
 }
